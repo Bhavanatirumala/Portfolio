@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Bhavs - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(3, 5, 62);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 65px;
+            background-color: rgb(178, 178, 245);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+
+
+        }
+
+        nav ul li a:hover {
+            color: aqua;
+            font-size: 1.1rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .first {
+            display: flex;
+            justify-content: space-around;
+            margin: 25px;
+        }
+
+        .leftSection {
+            margin: 50px 0;
+
+
+        }
+        .leftSection .btn{
+            padding: 6px;
+            background-color: rgb(17, 20, 122);
+            border: 1px solid white;
+            color: aliceblue;
+            cursor: pointer;
+        
+        }
+        .leftSection .btn1{
+            padding: 6px;
+            background-color: rgb(17, 20, 122);
+            border: 1px solid white;
+            color: aliceblue;
+            cursor: pointer;
+        }
+
+
+        .rightSection {
+            width: 80%;
+            margin: 100px 0;
+
+        }
+
+        .first>div {
+            width: 35%;
+            font-size: 3rem;
+        }
+
+        .rightSection img {
+            width: 90%;
+            margin: -30px 0;
+
+        }
+
+        .name {
+            color: rgb(236, 242, 115);
+        }
+
+        #element {
+            color: rgb(236, 242, 115);
+        }
+
+        .secondSection {
+            margin: auto;
+            max-width: 80vw;
+            height: 100vh;
+        }
+
+        hr {
+            list-style: dotted;
+            background-color: rgb(236, 242, 115);
+            height: 2px;
+            margin: 50px 80px;
+        }
+
+        .text {
+            color: grey;
+        }
+
+        .secondSection h1 {
+            font-size: 2rem;
+        }
+
+        .box {
+            background-color: white;
+            width: 150vh;
+            height: 3px;
+            display: flex;
+            margin: 90px 0;
+        }
+
+        .lines {
+            height: 13vh;
+            background-color: white;
+            width: 2px;
+            margin: 0 90px;
+
+        }
+
+        .img-line {
+            width: 50px;
+            position: relative;
+            top: -50px;
+            left: -12px;
+        }
+
+        .work-title {
+            position: relative;
+            top: 28px;
+            width: 160px;
+            font-size: larger;
+
+
+
+        }
+
+        .work-desc {
+            position: relative;
+            top: 34px;
+            font-size: 10px;
+            width: 140px;
+            color: rgb(236, 242, 115);
+            ;
+
+
+        }
+
+        .flex {
+            display: flex;
+            padding: 23px;
+
+        }
+
+        footer {
+            height: 200px;
+            background-color: #203a50;
+
+
+        }
+
+        footer div {
+            width: 1393px;
+
+            list-style: none;
+        }
+
+        .foot1 {
+            font-size: 15px;
+
+        }
+
+        .text-center {
+            text-align: center;
+            color: aliceblue;
+            padding: 20pxs;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Bhavs -portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">services</a></li>
+                    <li><a href="">projects</a></li>
+                    <li><a href="">contact me</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftSection">
+                Hi,I am <span class="name">Bhavana</span>
+                <div>I am </div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn1">View Github</button>
+                </div>
+            </div>
+
+            <div class="rightSection">
+                <img src="devgirl.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text">What have I done so far</span>
+            <h1>Past experience</h1>
+            <div class="box">
+                <div class="lines">
+                    <img class="img-line" src="web.png" alt="">
+                    <div class="work-title">web developer (2015-2018)</div>
+                    <div class="work-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quasi, esse
+                        molestiae facere sunt nisi!</div>
+                </div>
+
+                <div class="lines">
+                    <img class="img-line" src="web.png" alt="">
+                    <div class="work-title">web developer (2015-2018)</div>
+                    <div class="work-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quasi, esse
+                        molestiae facere sunt nisi!</div>
+                </div>
+                <div class="lines">
+                    <img class="img-line" src="web.png" alt="">
+                    <div class="work-title">web developer (2015-2018)</div>
+                    <div class="work-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quasi, esse
+                        molestiae facere sunt nisi!</div>
+                </div>
+                <div class="lines">
+                    <img class="img-line" src="web.png" alt="">
+                    <div class="work-title">web developer (2015-2018)</div>
+                    <div class="work-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quasi, esse
+                        molestiae facere sunt nisi!</div>
+                </div>
+                <div class="lines">
+                    <img class="img-line" src="web.png" alt="">
+                    <div class="work-title">web developer (2015-2018)</div>
+                    <div class="work-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quasi, esse
+                        molestiae facere sunt nisi!</div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="flex">
+            <div class="foot1">Developed by <span class="name"> Bhavana</span></div>
+            <div class="foot2">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>contact</li>
+                </ul>
+            </div>
+            <div class="foot3">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>contact</li>
+                </ul>
+            </div>
+            <div class="foot4">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>contact</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="text-center"> Copyrights&#169;www.bhavsportfolio | All rights reserved</div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web programmer', 'graphic designer', 'video editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
